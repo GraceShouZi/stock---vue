@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <title>杂</title>
+  </head>
+  <style type="text/css">
+    @charset "utf-8";
+    html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+        border:0 none;
+        margin:0;
+        padding:0;
+      list-style-type:none;
+        vertical-align:baseline;
+      background: transparent;
+    }
+    /*elements*/
+    div,a,input,button,select,textarea{-webkit-tap-highlight-color:rgba(0, 0, 0, 0);-webkit-tap-highlight-color:transparent;font-family:"Arial","Microsoft YaHei";}
+    input,select,textarea{outline:0;font-size:14px;border:0 none;margin:0;padding:0;-webkit-appearance:none;border-radius:0;}
+    html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {-webkit-text-size-adjust:none}
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display:block}
+    a{text-decoration:none;color:#494949;font-family:"Arial","Microsoft YaHei";}
+    body{font-family:"Arial","Microsoft YaHei";-webkit-text-size-adjust:none;-webkit-user-select:none;font-size:14px;color:#494949;}
+    table{border-collapse:collapse;border-spacing:0}
+    img{border:0;vertical-align:middle;}
+    i,em{ font-style: normal; }
+    .clearfix:after{content:'\0020';display:block;height:0;clear:both}
+    .clearfix{*zoom:1}
+    .red{ color:#FE5252;}
+    .white{ color:#fff;}
+    .green{ color:#26be6a;}
+    .gray{ color:#909090;}
+    .black{ color:#333;}
+    .grayBg{ background:#F1F0F0;}
+    .redBg{ background:#FE5252;}
+    .greenBg{ background:#72D155;}
+    .yellowBg{ background:#FFAB48;}
+    .yellow{ color:#ffe640;}
+    .purpleBg{ background:#6688E9;}
+    .hide{ display:none;}
+    #app{ width:100%; max-width: 768px; margin:0 auto; position: relative; overflow: hidden;}
+    .stockPool_tips{ border-top:1px solid #ddd; padding:0.8rem 1rem; font-size:1rem; text-align:justify; line-height:1.6rem;height:8rem; position:absolute; bottom:0; left:0; width:100%; box-sizing:border-box; z-index:9;}
+    .stockPool_tips_bg{ height:8rem;}
+  </style>
+  <script type="text/javascript">
+  (function(doc, win) {
+				var docEl = doc.documentElement,
+					resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+					recalc = function() {
+						var clientWidth = docEl.clientWidth < 768 ? docEl.clientWidth : 768;
+						if (!clientWidth) return;
+						docEl.style.fontSize = 10 * (clientWidth / 320) + 'px';
+						fontSize = 10 * (clientWidth / 320);
+					};
+				recalc();
+				if (!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+})
+(document, window);
+  </script>
+  <body>
+    <div id="app" class="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
